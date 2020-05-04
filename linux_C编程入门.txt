@@ -1,0 +1,18 @@
+﻿
+教程链接：
+https://www.runoob.com/cprogramming/c-tutorial.html
+
+一、如何在linux下编译运行c程序
+1.打开编辑器，建立一个hello.c文件并保存,
+2.关闭编辑器,在终端上输入 gcc -o hello hello.c编译c程序
+3.输入./hello运行c程序
+
+二、同时编译多个 c 代码的源码文件的方法
+  gcc test1.c test2.c -o main.out        // 这时不需要用test1.h 或者 test2.h 把两个.c文件链接。
+  ./main.out
+  ---- 有点Makefile的味道了...
+  
+  
+三、函数部分
+1. sizeof：为了得到某个类型或某个变量在特定平台上的准确大小，您可以使用 sizeof 运算符。表达式 sizeof(type) 得到对象或类型的存储字节大小
+2. 头文件 float.h 定义了宏，在程序中可以使用这些值和其他有关实数二进制表示的细节。
